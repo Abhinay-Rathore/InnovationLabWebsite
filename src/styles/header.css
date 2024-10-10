@@ -1,10 +1,20 @@
+/* Color palette */
+
+/* color: #f4a500;
+color: #159edd;
+color: #061ba4;
+color: #1ed4d7; */
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 0;
     background-color: #fff;
     border-bottom: 2px solid #e94c26;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
   }
   
   .header__left {
@@ -14,7 +24,7 @@
   
   .header__logo {
     height: 50px;
-    margin-right: 10px;
+    margin-left: 20px;
   }
   
   .header__title {
@@ -66,7 +76,7 @@
   .header__search-form {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    margin-right: 15px;
   }
   
   .header__search-input {

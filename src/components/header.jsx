@@ -23,8 +23,8 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__left">
-                <img src="./assets/images/logo.png" alt="logo" className="header__logo"/>
-                <h1 className="header__title">CSQUARE IITPKD</h1>
+                <img src="./assets/images/c_logo.png" alt="logo" className="header__logo"/>
+                {/* <h1 className="header__title">CSQUARE IITPKD</h1> */}
             </div>
             <nav className="header__nav">
                 <ul className="header__nav-list">

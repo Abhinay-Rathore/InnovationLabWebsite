@@ -1,0 +1,45 @@
+.news-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .news-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .news-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .posts-container {
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .post {
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  
+  .post-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .post-date {
+    font-size: 12px;
+    color: #999;
+  }
+  

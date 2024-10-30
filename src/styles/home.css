@@ -1,0 +1,25 @@
+/* home.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #1e293b; 
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .heading, .para{
+    text-align: center;
+  }
+
+  .heading{
+    margin-top: 10px;
+  }

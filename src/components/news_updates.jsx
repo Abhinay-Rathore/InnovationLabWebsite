@@ -4,7 +4,7 @@ import '../styles/news_updates.css';
 const posts = [
   {
     title: 'Changelog for 2024',
-    description: 'Explore the latest updates and enhancements in our 2024 changelog. Discover new ...',
+    description: 'Explore the latest updates and enhancements in our 2024 changelog. Discover new latest updates and enhancements in our 2024 changelog.',
     date: 'January 01, 2021',
   },
   {

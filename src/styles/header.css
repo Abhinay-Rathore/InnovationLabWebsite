@@ -11,7 +11,7 @@ color: #1ed4d7; */
     align-items: center;
     padding: 15px 0;
     background-color: #fff;
-    border-bottom: 2px solid #e94c26;
+    /* border-bottom: 2px solid #e94c26; */
     width: 100%;
     position: sticky;
     z-index: 1;

@@ -1,37 +1,99 @@
-.footer {
-    margin-top: 100px;
-    width: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.address {
-    color: rgb(210, 213, 121);
-    align-items: center;
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.about-page {
+    flex: 1; 
+    padding: 20px;
+}
+
+.about-intro {
+    margin-bottom: 30px;
+}
+
+.about-intro h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.about-intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.about-members {
+    margin-top: 40px;
+}
+
+.about-members h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.members-list {
+    display: flex;
+    gap: 20px;
     justify-content: center;
 }
 
+.member-card {
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
 
-/* .footer-container {
+.member-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.member-card p {
+    color: #777;
+}
+
+.footer {
+    margin-top: auto; 
     background-color: #333333;
     color: white;
-    max-width: 1200px;
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
-
-.social-connect {
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 1px solid #555;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* padding: 20px 0; */
-    background-color: #333333;
-    color: white;
-    /* max-width: 1200px; */
+    padding: 20px;
+    max-width: 1200px;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -40,8 +102,6 @@
     flex: 1;
     min-width: 250px;
     margin: 10px;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -73,14 +133,24 @@
     text-decoration: underline;
 }
 
+.social-connect {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+}
+
+.address {
+    color: rgb(210, 213, 121);
+}
+
 .copyright {
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px 0;
     font-size: 0.9em;
-    /* margin-top: 10px; */
 }
+
 
 @media (max-width: 768px) {
     .footer-content {

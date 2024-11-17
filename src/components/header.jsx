@@ -32,10 +32,10 @@ const Header = () => {
                         <a href="/" className="header__nav-link">Home</a>
                     </li>
                     <li className="header__nav-item">
-                        <a href="/job-request" className="header__nav-link">Job-Request</a>
+                        <a href="/about" className="header__nav-link">About us</a>
                     </li>
                     <li className="header__nav-item">
-                        <a href="/people" className="header__nav-link">People</a>
+                        <a href="/job-request" className="header__nav-link">Job-Request</a>
                     </li>
                     <li className="header__nav-item">
                         <a href="/log-equipment-register" className="header__nav-link">Log/Equipment Register</a>

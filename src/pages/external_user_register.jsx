@@ -1,19 +1,19 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import ProjectList from '../components/projects_list';
+import ExternalUserRegisterForm from '../components/external-user-register-form';
 
-const Projects = () => {
+const ExternalUserRegistration = () => {
     return (
       <div>
         <Header />
         <main>   
-          <ProjectList />
+          <ExternalUserRegisterForm />
         </main>
         <Footer/>
       </div>
     );
   };
   
-  export default Projects;
+  export default ExternalUserRegistration;
 

@@ -1,33 +1,40 @@
+
 import React from "react";
 import TeamMember from "../components/team_member";
 import "../styles/team_section.css"; 
 
 const members = [
   {
-    name: "James Henry",
-    role: "Web Analyst",
+    name: "Jenny",
+    // role: "Web Analyst",
     image: "./assets/images/person.jpg", 
     email: "something@iitpkd.ac.in",
   },
   {
     name: "Alex Smith",
-    role: "UI Designer",
+    // role: "UI Designer",
     image: "./assets/images/person.jpg",
     email: "something@iitpkd.ac.in",
   },
   {
     name: "Alex Smith",
-    role: "UI Designer",
+    // role: "UI Designer",
+    image: "./assets/images/person.jpg",
+    email: "something@iitpkd.ac.in",
+  },
+  {
+    name: "Alex Smith",
+    // role: "UI Designer",
     image: "./assets/images/person.jpg",
     email: "something@iitpkd.ac.in",
   },
   // Add more members here
 ];
 
-const TeamSection = () => {
+const TaSection = () => {
     return (
       <div className="team-section-container">
-        <h2 className="team-section-heading">Lab In-charge</h2>
+        <h2 className="team-section-heading">TA Members</h2>
         <div className="team-section">
           {members.map((member, index) => (
             <TeamMember key={index} {...member} />
@@ -37,4 +44,4 @@ const TeamSection = () => {
     );
   };
 
-export default TeamSection;
+export default TaSection;

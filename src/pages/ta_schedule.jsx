@@ -1,19 +1,19 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import ProjectList from '../components/projects_list';
+import TAScheduleTable from '../components/ta_schedule_table';
 
-const Projects = () => {
+const TASchedule = () => {
     return (
       <div>
         <Header />
         <main>   
-          <ProjectList />
+          <TAScheduleTable />
         </main>
         <Footer/>
       </div>
     );
   };
   
-  export default Projects;
+  export default TASchedule;
 

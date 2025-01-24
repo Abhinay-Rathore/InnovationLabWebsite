@@ -35,16 +35,22 @@ const Header = () => {
                         <a href="/about" className="header__nav-link">About us</a>
                     </li>
                     <li className="header__nav-item">
-                        <a href="/job-request" className="header__nav-link">Job-Request</a>
+                        <a href="/facilities" className="header__nav-link">Job-Request</a>
                     </li>
                     <li className="header__nav-item">
-                        <a href="/log-equipment-register" className="header__nav-link">Log/Equipment Register</a>
+                        <a href="/log_registration" className="header__nav-link">Log/Equipment Register</a>
                     </li>
                     <li className="header__nav-item">
-                        <a href="/ta" className="header__nav-link">TA</a>
+                        <a href="/ta_schedule" className="header__nav-link">TA</a>
                     </li>
-                    <li className="header__nav-item"  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <a href="/#" className="header__nav-link">Others<FontAwesomeIcon icon={faCaretDown}                className="header__dropdown-icon" />
+                    <li className="header__nav-item">
+                        <a href="/projects" className="header__nav-link">Projects</a>
+                    </li>
+                    <li className="header__nav-item">
+                        <a href="/external_user_register" className="header__nav-link">External User register</a>
+                    </li>
+                    {/* <li className="header__nav-item"  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                        <a href="/#" className="header__nav-link">Others<FontAwesomeIcon icon={faCaretDown} className="header__dropdown-icon" />
                     </a>
                     {isDropdownOpen && (
                         <ul className="header__dropdown-menu">
@@ -53,7 +59,7 @@ const Header = () => {
                             <li><a href="/link3">Option 3</a></li>
                         </ul>
                     )}
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
             <div className="header__right">

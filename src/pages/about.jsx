@@ -4,7 +4,7 @@ import Footer from '../components/footer';
 import AboutAnimation from '../components/about-animation';
 import AboutInfoSection from '../components/about-info-section';
 import TeamSection from '../components/team_section';
-
+import TaSection from '../components/ta-member';
 
 const About = () => {
     return (
@@ -14,6 +14,7 @@ const About = () => {
           <AboutAnimation />  
           <AboutInfoSection />
           <TeamSection />
+          <TaSection />
         </main>
         <Footer/>
       </div>

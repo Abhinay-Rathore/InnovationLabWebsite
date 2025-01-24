@@ -1,19 +1,19 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import ProjectList from '../components/projects_list';
+import ReadMoreProject from '../components/read-more-project';
 
-const Projects = () => {
+const ReadMore = () => {
     return (
       <div>
-        <Header />
+        <Header/>
         <main>   
-          <ProjectList />
+          <ReadMoreProject />
         </main>
         <Footer/>
       </div>
     );
   };
   
-  export default Projects;
+export default ReadMore;
 

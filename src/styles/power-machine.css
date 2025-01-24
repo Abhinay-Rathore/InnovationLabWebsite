@@ -1,0 +1,60 @@
+.power-machine-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+  }
+  
+  .machine-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  .machine-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .machine-image {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .machine-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .machine-make,
+  .machine-model {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .machine-links {
+    margin-top: 10px;
+  }
+  
+  .machine-links a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .machine-links a:hover {
+    text-decoration: underline;
+  }
+  

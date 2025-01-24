@@ -1,19 +1,22 @@
 import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import ProjectList from '../components/projects_list';
+import FacilitiesHero from '../components/facilities-hero';
+import PowerMachine from '../components/power-machine';
 
-const Projects = () => {
+
+const Facilities = () => {
     return (
       <div>
         <Header />
         <main>   
-          <ProjectList />
+          <FacilitiesHero />
+          <PowerMachine />
         </main>
         <Footer/>
       </div>
     );
   };
   
-  export default Projects;
+  export default Facilities;
 
